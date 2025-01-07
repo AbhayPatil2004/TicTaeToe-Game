@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tae Toe</title>
+</head>
+<body>
+    
+    <div class="heading">
+        <h1 class="title">Welcome to TicTaeToe Game</h1>
+    </div>
+    <div class="box">
+
+        <div class="content">
+
+            <div id="withFriend"></div>
+            <div id="wtihComp"></div>
+
+            <div class="human_comp" id="Human_Comp">
+                <p class="human_comp_para">Whom with you want to Play</p>
+                <div class="choose_btn">
+                    <button class="btn" id="comp">Computer</button>
+                    <button class="btn" id="friend">friend</button>
+                </div>
+            </div>
+
+            <div class="user_input" id="User_Input" >
+
+                <p class="input_para">Enter the Name of participant</p>
+                <div class="input" id="input1">
+                    <input type="text" id="input_name1" class="input_name" placeholder="Enter the Name" >
+                    <button class="submit_btn"  id="submit_btn1">
+                        Submit
+                    </button>
+                </div>
+                <div class="input" id="input2">
+                    <input type="text" id="input_name2" class="input_name" placeholder="Enter the Name">
+                    <button class="submit_btn" id="submit_btn2">
+                        Submit
+                    </button>
+                </div>
+
+                <button class="submit_data" id="Submit_data"> Start the Game</button>
+            </div>
+
+            <div class="choose_O_X" id="choose_O_X">
+                <p class="choose_para" id="choose_para">Choose between O / X </p>
+                <div class="choose_btn">
+                    <button id="O">O</button>
+                    <button id="X">X</button>
+                </div>
+            </div>
+
+            <div class="game" id="Game">
+                <button class="game_btn" id="game_btn_1"></button>
+                <button class="game_btn" id="game_btn_2"></button>
+                <button class="game_btn" id="game_btn_3"></button>
+                <button class="game_btn" id="game_btn_4"></button>
+                <button class="game_btn" id="game_btn_5"></button>
+                <button class="game_btn" id="game_btn_6"></button>
+                <button class="game_btn" id="game_btn_7"></button>
+                <button class="game_btn" id="game_btn_8"></button>
+                <button class="game_btn" id="game_btn_9"></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
